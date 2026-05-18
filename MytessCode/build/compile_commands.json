@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MYdependency.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MYdependency.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MYdependency.cpp",
+  "output": "CMakeFiles/test.dir/MYdependency.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MyCode.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MyCode.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MyCode.cpp",
+  "output": "CMakeFiles/test.dir/MyCode.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MyGraph.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MyGraph.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MyGraph.cpp",
+  "output": "CMakeFiles/test.dir/MyGraph.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MyGraphAlgorithms.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MyGraphAlgorithms.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MyGraphAlgorithms.cpp",
+  "output": "CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MyGraphnew.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MyGraphnew.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MyGraphnew.cpp",
+  "output": "CMakeFiles/test.dir/MyGraphnew.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\MySort.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\MySort.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/MySort.cpp",
+  "output": "CMakeFiles/test.dir/MySort.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\UnionFind.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\UnionFind.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/UnionFind.cpp",
+  "output": "CMakeFiles/test.dir/UnionFind.cpp.obj"
+},
+{
+  "directory": "C:/Users/sheng/Desktop/MytessCode/build",
+  "command": "C:\\Mingw64\\bin\\g++.exe   -g -o CMakeFiles\\test.dir\\test.cpp.obj -c C:\\Users\\sheng\\Desktop\\MytessCode\\test.cpp",
+  "file": "C:/Users/sheng/Desktop/MytessCode/test.cpp",
+  "output": "CMakeFiles/test.dir/test.cpp.obj"
+}
+]
