@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\sheng\Desktop\MytessCode
+CMAKE_SOURCE_DIR = D:\MYLeetCode\MytessCode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\sheng\Desktop\MytessCode\build
+CMAKE_BINARY_DIR = D:\MYLeetCode\MytessCode\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles C:\Users\sheng\Desktop\MytessCode\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MYLeetCode\MytessCode\build\CMakeFiles D:\MYLeetCode\MytessCode\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MYLeetCode\MytessCode\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,30 @@ MyCode.s: MyCode.cpp.s
 MyCode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MyCode.cpp.s
 .PHONY : MyCode.cpp.s
+
+MyCodePrivate.obj: MyCodePrivate.cpp.obj
+.PHONY : MyCodePrivate.obj
+
+# target to build an object file
+MyCodePrivate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MyCodePrivate.cpp.obj
+.PHONY : MyCodePrivate.cpp.obj
+
+MyCodePrivate.i: MyCodePrivate.cpp.i
+.PHONY : MyCodePrivate.i
+
+# target to preprocess a source file
+MyCodePrivate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MyCodePrivate.cpp.i
+.PHONY : MyCodePrivate.cpp.i
+
+MyCodePrivate.s: MyCodePrivate.cpp.s
+.PHONY : MyCodePrivate.s
+
+# target to generate assembly for a file
+MyCodePrivate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MyCodePrivate.cpp.s
+.PHONY : MyCodePrivate.cpp.s
 
 MyGraph.obj: MyGraph.cpp.obj
 .PHONY : MyGraph.obj
@@ -335,6 +359,9 @@ help:
 	@echo ... MyCode.obj
 	@echo ... MyCode.i
 	@echo ... MyCode.s
+	@echo ... MyCodePrivate.obj
+	@echo ... MyCodePrivate.i
+	@echo ... MyCodePrivate.s
 	@echo ... MyGraph.obj
 	@echo ... MyGraph.i
 	@echo ... MyGraph.s

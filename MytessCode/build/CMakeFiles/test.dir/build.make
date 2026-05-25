@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\sheng\Desktop\MytessCode
+CMAKE_SOURCE_DIR = D:\MYLeetCode\MytessCode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\sheng\Desktop\MytessCode\build
+CMAKE_BINARY_DIR = D:\MYLeetCode\MytessCode\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -72,121 +72,136 @@ CMakeFiles/test.dir/codegen:
 .PHONY : CMakeFiles/test.dir/codegen
 
 CMakeFiles/test.dir/MYdependency.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MYdependency.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MYdependency.cpp
+CMakeFiles/test.dir/MYdependency.cpp.obj: D:/MYLeetCode/MytessCode/MYdependency.cpp
 CMakeFiles/test.dir/MYdependency.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/MYdependency.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MYdependency.cpp.obj -MF CMakeFiles\test.dir\MYdependency.cpp.obj.d -o CMakeFiles\test.dir\MYdependency.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MYdependency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/MYdependency.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MYdependency.cpp.obj -MF CMakeFiles\test.dir\MYdependency.cpp.obj.d -o CMakeFiles\test.dir\MYdependency.cpp.obj -c D:\MYLeetCode\MytessCode\MYdependency.cpp
 
 CMakeFiles/test.dir/MYdependency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MYdependency.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MYdependency.cpp > CMakeFiles\test.dir\MYdependency.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MYdependency.cpp > CMakeFiles\test.dir\MYdependency.cpp.i
 
 CMakeFiles/test.dir/MYdependency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MYdependency.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MYdependency.cpp -o CMakeFiles\test.dir\MYdependency.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MYdependency.cpp -o CMakeFiles\test.dir\MYdependency.cpp.s
 
 CMakeFiles/test.dir/MyCode.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MyCode.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MyCode.cpp
+CMakeFiles/test.dir/MyCode.cpp.obj: D:/MYLeetCode/MytessCode/MyCode.cpp
 CMakeFiles/test.dir/MyCode.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/MyCode.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyCode.cpp.obj -MF CMakeFiles\test.dir\MyCode.cpp.obj.d -o CMakeFiles\test.dir\MyCode.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MyCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/MyCode.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyCode.cpp.obj -MF CMakeFiles\test.dir\MyCode.cpp.obj.d -o CMakeFiles\test.dir\MyCode.cpp.obj -c D:\MYLeetCode\MytessCode\MyCode.cpp
 
 CMakeFiles/test.dir/MyCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MyCode.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MyCode.cpp > CMakeFiles\test.dir\MyCode.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MyCode.cpp > CMakeFiles\test.dir\MyCode.cpp.i
 
 CMakeFiles/test.dir/MyCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MyCode.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MyCode.cpp -o CMakeFiles\test.dir\MyCode.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MyCode.cpp -o CMakeFiles\test.dir\MyCode.cpp.s
+
+CMakeFiles/test.dir/MyCodePrivate.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/MyCodePrivate.cpp.obj: D:/MYLeetCode/MytessCode/MyCodePrivate.cpp
+CMakeFiles/test.dir/MyCodePrivate.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/MyCodePrivate.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyCodePrivate.cpp.obj -MF CMakeFiles\test.dir\MyCodePrivate.cpp.obj.d -o CMakeFiles\test.dir\MyCodePrivate.cpp.obj -c D:\MYLeetCode\MytessCode\MyCodePrivate.cpp
+
+CMakeFiles/test.dir/MyCodePrivate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MyCodePrivate.cpp.i"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MyCodePrivate.cpp > CMakeFiles\test.dir\MyCodePrivate.cpp.i
+
+CMakeFiles/test.dir/MyCodePrivate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MyCodePrivate.cpp.s"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MyCodePrivate.cpp -o CMakeFiles\test.dir\MyCodePrivate.cpp.s
 
 CMakeFiles/test.dir/MyGraph.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MyGraph.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MyGraph.cpp
+CMakeFiles/test.dir/MyGraph.cpp.obj: D:/MYLeetCode/MytessCode/MyGraph.cpp
 CMakeFiles/test.dir/MyGraph.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/MyGraph.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraph.cpp.obj -MF CMakeFiles\test.dir\MyGraph.cpp.obj.d -o CMakeFiles\test.dir\MyGraph.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MyGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/MyGraph.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraph.cpp.obj -MF CMakeFiles\test.dir\MyGraph.cpp.obj.d -o CMakeFiles\test.dir\MyGraph.cpp.obj -c D:\MYLeetCode\MytessCode\MyGraph.cpp
 
 CMakeFiles/test.dir/MyGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MyGraph.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MyGraph.cpp > CMakeFiles\test.dir\MyGraph.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MyGraph.cpp > CMakeFiles\test.dir\MyGraph.cpp.i
 
 CMakeFiles/test.dir/MyGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MyGraph.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MyGraph.cpp -o CMakeFiles\test.dir\MyGraph.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MyGraph.cpp -o CMakeFiles\test.dir\MyGraph.cpp.s
 
 CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MyGraphAlgorithms.cpp
+CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: D:/MYLeetCode/MytessCode/MyGraphAlgorithms.cpp
 CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj -MF CMakeFiles\test.dir\MyGraphAlgorithms.cpp.obj.d -o CMakeFiles\test.dir\MyGraphAlgorithms.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MyGraphAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj -MF CMakeFiles\test.dir\MyGraphAlgorithms.cpp.obj.d -o CMakeFiles\test.dir\MyGraphAlgorithms.cpp.obj -c D:\MYLeetCode\MytessCode\MyGraphAlgorithms.cpp
 
 CMakeFiles/test.dir/MyGraphAlgorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MyGraphAlgorithms.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MyGraphAlgorithms.cpp > CMakeFiles\test.dir\MyGraphAlgorithms.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MyGraphAlgorithms.cpp > CMakeFiles\test.dir\MyGraphAlgorithms.cpp.i
 
 CMakeFiles/test.dir/MyGraphAlgorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MyGraphAlgorithms.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MyGraphAlgorithms.cpp -o CMakeFiles\test.dir\MyGraphAlgorithms.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MyGraphAlgorithms.cpp -o CMakeFiles\test.dir\MyGraphAlgorithms.cpp.s
 
 CMakeFiles/test.dir/MyGraphnew.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MyGraphnew.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MyGraphnew.cpp
+CMakeFiles/test.dir/MyGraphnew.cpp.obj: D:/MYLeetCode/MytessCode/MyGraphnew.cpp
 CMakeFiles/test.dir/MyGraphnew.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/MyGraphnew.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraphnew.cpp.obj -MF CMakeFiles\test.dir\MyGraphnew.cpp.obj.d -o CMakeFiles\test.dir\MyGraphnew.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MyGraphnew.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/MyGraphnew.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MyGraphnew.cpp.obj -MF CMakeFiles\test.dir\MyGraphnew.cpp.obj.d -o CMakeFiles\test.dir\MyGraphnew.cpp.obj -c D:\MYLeetCode\MytessCode\MyGraphnew.cpp
 
 CMakeFiles/test.dir/MyGraphnew.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MyGraphnew.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MyGraphnew.cpp > CMakeFiles\test.dir\MyGraphnew.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MyGraphnew.cpp > CMakeFiles\test.dir\MyGraphnew.cpp.i
 
 CMakeFiles/test.dir/MyGraphnew.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MyGraphnew.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MyGraphnew.cpp -o CMakeFiles\test.dir\MyGraphnew.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MyGraphnew.cpp -o CMakeFiles\test.dir\MyGraphnew.cpp.s
 
 CMakeFiles/test.dir/MySort.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MySort.cpp.obj: C:/Users/sheng/Desktop/MytessCode/MySort.cpp
+CMakeFiles/test.dir/MySort.cpp.obj: D:/MYLeetCode/MytessCode/MySort.cpp
 CMakeFiles/test.dir/MySort.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/MySort.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MySort.cpp.obj -MF CMakeFiles\test.dir\MySort.cpp.obj.d -o CMakeFiles\test.dir\MySort.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\MySort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/MySort.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/MySort.cpp.obj -MF CMakeFiles\test.dir\MySort.cpp.obj.d -o CMakeFiles\test.dir\MySort.cpp.obj -c D:\MYLeetCode\MytessCode\MySort.cpp
 
 CMakeFiles/test.dir/MySort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/MySort.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\MySort.cpp > CMakeFiles\test.dir\MySort.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\MySort.cpp > CMakeFiles\test.dir\MySort.cpp.i
 
 CMakeFiles/test.dir/MySort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/MySort.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\MySort.cpp -o CMakeFiles\test.dir\MySort.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\MySort.cpp -o CMakeFiles\test.dir\MySort.cpp.s
 
 CMakeFiles/test.dir/UnionFind.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/UnionFind.cpp.obj: C:/Users/sheng/Desktop/MytessCode/UnionFind.cpp
+CMakeFiles/test.dir/UnionFind.cpp.obj: D:/MYLeetCode/MytessCode/UnionFind.cpp
 CMakeFiles/test.dir/UnionFind.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/UnionFind.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/UnionFind.cpp.obj -MF CMakeFiles\test.dir\UnionFind.cpp.obj.d -o CMakeFiles\test.dir\UnionFind.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\UnionFind.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/UnionFind.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/UnionFind.cpp.obj -MF CMakeFiles\test.dir\UnionFind.cpp.obj.d -o CMakeFiles\test.dir\UnionFind.cpp.obj -c D:\MYLeetCode\MytessCode\UnionFind.cpp
 
 CMakeFiles/test.dir/UnionFind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/UnionFind.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\UnionFind.cpp > CMakeFiles\test.dir\UnionFind.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\UnionFind.cpp > CMakeFiles\test.dir\UnionFind.cpp.i
 
 CMakeFiles/test.dir/UnionFind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/UnionFind.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\UnionFind.cpp -o CMakeFiles\test.dir\UnionFind.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\UnionFind.cpp -o CMakeFiles\test.dir\UnionFind.cpp.s
 
 CMakeFiles/test.dir/test.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test.cpp.obj: C:/Users/sheng/Desktop/MytessCode/test.cpp
+CMakeFiles/test.dir/test.cpp.obj: D:/MYLeetCode/MytessCode/test.cpp
 CMakeFiles/test.dir/test.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/test.cpp.obj"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cpp.obj -MF CMakeFiles\test.dir\test.cpp.obj.d -o CMakeFiles\test.dir\test.cpp.obj -c C:\Users\sheng\Desktop\MytessCode\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test.dir/test.cpp.obj"
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cpp.obj -MF CMakeFiles\test.dir\test.cpp.obj.d -o CMakeFiles\test.dir\test.cpp.obj -c D:\MYLeetCode\MytessCode\test.cpp
 
 CMakeFiles/test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cpp.i"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sheng\Desktop\MytessCode\test.cpp > CMakeFiles\test.dir\test.cpp.i
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\MYLeetCode\MytessCode\test.cpp > CMakeFiles\test.dir\test.cpp.i
 
 CMakeFiles/test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cpp.s"
-	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sheng\Desktop\MytessCode\test.cpp -o CMakeFiles\test.dir\test.cpp.s
+	C:\Mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\MYLeetCode\MytessCode\test.cpp -o CMakeFiles\test.dir\test.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/MYdependency.cpp.obj" \
 "CMakeFiles/test.dir/MyCode.cpp.obj" \
+"CMakeFiles/test.dir/MyCodePrivate.cpp.obj" \
 "CMakeFiles/test.dir/MyGraph.cpp.obj" \
 "CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj" \
 "CMakeFiles/test.dir/MyGraphnew.cpp.obj" \
@@ -199,6 +214,7 @@ test_EXTERNAL_OBJECTS =
 
 test.exe: CMakeFiles/test.dir/MYdependency.cpp.obj
 test.exe: CMakeFiles/test.dir/MyCode.cpp.obj
+test.exe: CMakeFiles/test.dir/MyCodePrivate.cpp.obj
 test.exe: CMakeFiles/test.dir/MyGraph.cpp.obj
 test.exe: CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj
 test.exe: CMakeFiles/test.dir/MyGraphnew.cpp.obj
@@ -209,7 +225,7 @@ test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/linkLibs.rsp
 test.exe: CMakeFiles/test.dir/objects1.rsp
 test.exe: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MYLeetCode\MytessCode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -221,6 +237,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sheng\Desktop\MytessCode C:\Users\sheng\Desktop\MytessCode C:\Users\sheng\Desktop\MytessCode\build C:\Users\sheng\Desktop\MytessCode\build C:\Users\sheng\Desktop\MytessCode\build\CMakeFiles\test.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\MYLeetCode\MytessCode D:\MYLeetCode\MytessCode D:\MYLeetCode\MytessCode\build D:\MYLeetCode\MytessCode\build D:\MYLeetCode\MytessCode\build\CMakeFiles\test.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test.dir/depend
 

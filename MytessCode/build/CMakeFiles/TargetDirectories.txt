@@ -1,3 +1,3 @@
-C:/Users/sheng/Desktop/MytessCode/build/CMakeFiles/test.dir
-C:/Users/sheng/Desktop/MytessCode/build/CMakeFiles/edit_cache.dir
-C:/Users/sheng/Desktop/MytessCode/build/CMakeFiles/rebuild_cache.dir
+D:/MYLeetCode/MytessCode/build/CMakeFiles/test.dir
+D:/MYLeetCode/MytessCode/build/CMakeFiles/edit_cache.dir
+D:/MYLeetCode/MytessCode/build/CMakeFiles/rebuild_cache.dir

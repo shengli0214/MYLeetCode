@@ -1,5 +1,4 @@
-CMakeFiles/test.dir/test.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\test.cpp \
+CMakeFiles/test.dir/test.cpp.obj: D:\MYLeetCode\MytessCode\test.cpp \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -148,7 +147,7 @@ CMakeFiles/test.dir/test.cpp.obj: \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_set.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h \
- C:\Users\sheng\Desktop\MytessCode\MyGraphnew.h \
+ D:\MYLeetCode\MytessCode\MyGraphnew.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
@@ -163,12 +162,15 @@ CMakeFiles/test.dir/test.cpp.obj: \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
- C:\Users\sheng\Desktop\MytessCode\MyCode.h \
+ D:\MYLeetCode\MytessCode\MyCode.h \
+ C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
- C:\Users\sheng\Desktop\MytessCode\MyGraphTemplate.h \
+ C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_set \
+ C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
+ D:\MYLeetCode\MytessCode\MyGraphTemplate.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
@@ -185,5 +187,4 @@ CMakeFiles/test.dir/test.cpp.obj: \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
  C:/Mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
- C:\Users\sheng\Desktop\MytessCode\UnionFind.h
+ D:\MYLeetCode\MytessCode\UnionFind.h

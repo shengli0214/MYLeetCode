@@ -1,6 +1,5 @@
-CMakeFiles/test.dir/MyGraph.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\MyGraph.cpp \
- C:\Users\sheng\Desktop\MytessCode\MyGraph.h \
+CMakeFiles/test.dir/MyGraph.cpp.obj: D:\MYLeetCode\MytessCode\MyGraph.cpp \
+ D:\MYLeetCode\MytessCode\MyGraph.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -164,5 +163,5 @@ CMakeFiles/test.dir/MyGraph.cpp.obj: \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_list.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/list.tcc \
- C:\Users\sheng\Desktop\MytessCode\MyList.h \
- C:\Users\sheng\Desktop\MytessCode\MyDependency.h
+ D:\MYLeetCode\MytessCode\MyList.h \
+ D:\MYLeetCode\MytessCode\MyDependency.h

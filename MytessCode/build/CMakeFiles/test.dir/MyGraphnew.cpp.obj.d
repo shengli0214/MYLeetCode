@@ -1,6 +1,6 @@
 CMakeFiles/test.dir/MyGraphnew.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\MyGraphnew.cpp \
- C:\Users\sheng\Desktop\MytessCode\MyGraphnew.h \
+ D:\MYLeetCode\MytessCode\MyGraphnew.cpp \
+ D:\MYLeetCode\MytessCode\MyGraphnew.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

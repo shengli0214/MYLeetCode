@@ -1,6 +1,5 @@
-CMakeFiles/test.dir/MySort.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\MySort.cpp \
- C:\Users\sheng\Desktop\MytessCode\MySort.h \
+CMakeFiles/test.dir/MySort.cpp.obj: D:\MYLeetCode\MytessCode\MySort.cpp \
+ D:\MYLeetCode\MytessCode\MySort.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
  C:/Mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Mingw64/x86_64-w64-mingw32/include/crtdefs.h \

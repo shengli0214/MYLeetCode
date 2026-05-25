@@ -1,6 +1,6 @@
 CMakeFiles/test.dir/MYdependency.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\MYdependency.cpp \
- C:\Users\sheng\Desktop\MytessCode\MyDependency.h \
+ D:\MYLeetCode\MytessCode\MYdependency.cpp \
+ D:\MYLeetCode\MytessCode\MyDependency.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

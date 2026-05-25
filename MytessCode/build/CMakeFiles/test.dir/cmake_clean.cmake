@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/MYdependency.cpp.obj.d"
   "CMakeFiles/test.dir/MyCode.cpp.obj"
   "CMakeFiles/test.dir/MyCode.cpp.obj.d"
+  "CMakeFiles/test.dir/MyCodePrivate.cpp.obj"
+  "CMakeFiles/test.dir/MyCodePrivate.cpp.obj.d"
   "CMakeFiles/test.dir/MyGraph.cpp.obj"
   "CMakeFiles/test.dir/MyGraph.cpp.obj.d"
   "CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj"

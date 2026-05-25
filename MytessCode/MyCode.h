@@ -1,12 +1,12 @@
-/*** 
+/***
  * @Author: shengli.liu && shengli_liu14@126.com
  * @Date: 2025-02-17 22:49:13
  * @LastEditors: shengli0214 shengli_liu14@126.com
- * @LastEditTime: 2026-05-18 11:38:13
+ * @LastEditTime: 2026-05-19 19:14:55
  * @FilePath: \MytessCode\MyCode.h
- * @Description: 
+ * @Description:
  * @
- * @Copyright (c) 2026 by shengli.liu, All Rights Reserved. 
+ * @Copyright (c) 2026 by shengli.liu, All Rights Reserved.
  */
 /***
  * @Author: shengli.liu && shengli_liu14@126.com
@@ -21,12 +21,18 @@
 
 #ifndef MYCODE_H
 #define MYCODE_H
+#include <algorithm>
+#include <climits>
+#include <deque>
 #include <iostream>
+#include <limits>
 #include <map>
 #include <stack>
 #include <unordered_map>
-#include <vector>
 #include <unordered_set>
+#include <utility>
+#include <vector>
+
 namespace MYCODE {
 using namespace std;
 
@@ -37,6 +43,7 @@ struct ListNode {
   ListNode(int x) : val(x), next(nullptr) {}
   ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
+
 class Solution {
  public:
   std::string convert(string s, int numRows);
@@ -57,11 +64,11 @@ class Solution {
   // leetcode 79
   bool exist(vector<vector<char>>& board, string word);
   bool exist1(vector<vector<char>>& board, string word);
-  //leetcode 23
+  // leetcode 23
   ListNode* mergeKLists(vector<ListNode*>& lists);
   ListNode* mergeKLists1(vector<ListNode*>& lists);
   ListNode* mergeKLists2(vector<ListNode*>& lists);
-  //leetcode 24
+  // leetcode 24
   ListNode* swapPairs(ListNode* head);
 
   vector<int> dailyTemperatures(vector<int>& temperatures);
@@ -69,23 +76,28 @@ class Solution {
   // leetcode 61
   ListNode* rotateRight(ListNode* head, int k);
 
-  vector<ListNode*> Solution:: splitListToParts(ListNode* head, int k);
-  //203
+  vector<ListNode*> splitListToParts(ListNode* head, int k);
+  // 203
   ListNode* removeElements(ListNode* head, int val);
   ListNode* removeElements1(ListNode* head, int val);
-  //3217
+  // 3217
   ListNode* modifiedList(vector<int>& nums, ListNode* head);
   ListNode* modifiedList1(vector<int>& nums, ListNode* head);
-  //83
+  // 83
   ListNode* deleteDuplicates(ListNode* head);
-  //82
+  // 82
   ListNode* deleteDuplicates_82(ListNode* head);
-  //237
+  // 237
   void deleteNode(ListNode* node);
-  //1669
+  // 1669
   ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2);
-  //2487
+  // 2487
   ListNode* removeNodes(ListNode* head);
+  // 2807
+  ListNode* insertGreatestCommonDivisors(ListNode* head);
+  // 147
+  ListNode* insertionSortList(ListNode* head);
+
  private:
   ListNode* mergeTwoLists(ListNode* a, ListNode* b);
   ListNode* merge(vector<ListNode*>& lists, int l, int r);
@@ -98,6 +110,7 @@ class Solution {
   void board_DFS(vector<vector<char>>& board, string& word,
                  vector<vector<bool>>& visited, int i, int j, int k,
                  bool& find);
+  int gcd(int x, int y);
 };
 
 }  // namespace MYCODE

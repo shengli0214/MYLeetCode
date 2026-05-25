@@ -1,7 +1,7 @@
 CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: \
- C:\Users\sheng\Desktop\MytessCode\MyGraphAlgorithms.cpp \
- C:\Users\sheng\Desktop\MytessCode\MyGraphAlgorithms.h \
- C:\Users\sheng\Desktop\MytessCode\MyGraph.h \
+ D:\MYLeetCode\MytessCode\MyGraphAlgorithms.cpp \
+ D:\MYLeetCode\MytessCode\MyGraphAlgorithms.h \
+ D:\MYLeetCode\MytessCode\MyGraph.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -165,8 +165,8 @@ CMakeFiles/test.dir/MyGraphAlgorithms.cpp.obj: \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_list.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/list.tcc \
- C:\Users\sheng\Desktop\MytessCode\MyList.h \
- C:\Users\sheng\Desktop\MytessCode\MyDependency.h \
+ D:\MYLeetCode\MytessCode\MyList.h \
+ D:\MYLeetCode\MytessCode\MyDependency.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
  C:/Mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc \

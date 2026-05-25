@@ -11,13 +11,7 @@
 
 #include "MyCode.h"
 
-#include <algorithm>
-#include <climits>
-#include <limits>
-#include <map>
-#include <unordered_map>
-#include <utility>
-#include <vector>
+
 
 namespace MYCODE {
 using namespace std;
@@ -359,44 +353,32 @@ vector<string> Solution::letterCombinations(string digits) {}
 // 数字 n 代表生成括号的对数，
 // 请你设计一个函数，用于能够生成所有可能的并且
 // 有效的 括号组合。
-vector<string> Solution::generateParenthesis(int n) {
-  /*
-  n=0; ''
-  n=1;('');
-  n=2 ('')（1）
-  n=2 ((1))+''
+// vector<string> Solution::generateParenthesis(int n) {
+//   /*
+//   n=0; ''
+//   n=1;('');
+//   n=2 ('')（1）
+//   n=2 ((1))+''
 
-  n=3 ('') +(2); -> ()()() + ()(())
-  n=3 ((1))+(1)->(())()
-  n=3((2))+''(()())+((()))
+//   n=3 ('') +(2); -> ()()() + ()(())
+//   n=3 ((1))+(1)->(())()
+//   n=3((2))+''(()())+((()))
 
-  dp(0) dp(1)
-  dp(2) = (dp(0)) + dp(1),（dp（1））+dp(0)
-  dp
-    */
-  //  std::vector<string> result;
-  //  return result;
-  back_track_generate_parenthesis(n, 0, 0, "");
-  return generateParenthesisRes;
-}
+//   dp(0) dp(1)
+//   dp(2) = (dp(0)) + dp(1),（dp（1））+dp(0)
+//   dp
+//     */
+//   //  std::vector<string> result;
+//   //  return result;
+//   back_track_generate_parenthesis(n, 0, 0, "");
+//   return generateParenthesisRes;
+// }
 
 /**
  * @description:
  * @return {*}
  */
-void Solution::back_track_generate_parenthesis(int n, int left_num,
-                                               int right_num, std::string str) {
-  if (left_num == n && right_num == n) {
-    generateParenthesisRes.push_back(str);
-    return;
-  }
-  if (left_num < n) {
-    back_track_generate_parenthesis(n, left_num + 1, right_num, str + "(");
-  }
-  if (right_num < left_num) {
-    back_track_generate_parenthesis(n, left_num, right_num + 1, str + ")");
-  }
-}
+
 
 vector<string> Solution::generateParenthesis1(int n) {
   std::vector<string> Res;
@@ -404,51 +386,7 @@ vector<string> Solution::generateParenthesis1(int n) {
   return Res;
 }
 
-void Solution::back_track_generate_parenthesis_no_res(
-    int n, std::vector<string>& Res) {
-  // std::stack<string> stk;
-  std::stack<std::tuple<string, int, int>> stk;
-  // if n == 3 then "(" -> stack "((" -> stack "(((" -> stack
-  // right < left then "((()"   then"((())"  then "((()))"
-  // so the solution upper space occupation very high
-  //
-  if (n == 0) {
-    return;
-  }
-  // stk.top
-  stk.push({"", 0, 0});
-  while (!stk.empty()) {
-    std::tuple<string, int, int> top_elem{stk.top()};
-    stk.pop();
-    if ((std::get<1>(top_elem) == n) && (std::get<2>(top_elem) == n)) {
-      Res.emplace_back(std::get<0>(top_elem));
-      continue;
-    }
-    if (std::get<2>(top_elem) < std::get<1>(top_elem)) {
-      stk.emplace(std::make_tuple(std::get<0>(top_elem) + ")",
-                                  std::get<1>(top_elem),
-                                  std::get<2>(top_elem) + 1));
-    }
-    if (std::get<1>(top_elem) < n) {
-      stk.emplace(std::make_tuple(std::get<0>(top_elem) + "(",
-                                  std::get<1>(top_elem) + 1,
-                                  std::get<2>(top_elem)));
-    }
-  }
 
-  // while ((std::get<1>(stk.top())) < n) {
-  //   // std::tuple<string, int, int> stk_top;
-  //   if (!stk.empty()) {
-  //     stk.push(std::make_tuple(std::get<0>(stk.top()) + "(",
-  //                              std::get<1>(stk.top()) + 1,
-  //              std::get<2>(stk.top())));
-  //     // stk_top.first += stk.top().first;
-  //     // stk_top.first = stk.top().first + "(";
-  //     // stk_top.second =
-  //   }
-  //   // stk.push("(");
-  // }
-}
 
 bool Solution::exist(vector<vector<char>>& board, string word) {
   // for (int i{0};i<board.size();++i)
@@ -469,95 +407,7 @@ bool Solution::exist(vector<vector<char>>& board, string word) {
   return find;
 }
 
-void Solution::board_DFS(vector<vector<char>>& board, string& word,
-                         vector<vector<bool>>& visited, int i, int j, int k,
-                         bool& find) {
-  if (find) {
-    return;
-  }
-  if (visited[i][j]) {
-    return;
-  }
-  if (board.at(i).at(j) != word.at(k)) {
-    return;
-  }
-  if (k == word.length() - 1) {
-    find = true;
-    return;
-  }
-  visited.at(i).at(j) = true;
-  vector<pair<int, int>> dirs{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-  for (auto const& dir : dirs) {
-    int new_i{i + dir.first};
-    int new_j{j + dir.second};
-    if ((new_i >= 0 && new_i < board.size()) &&
-        (new_j >= 0 && new_j < board.at(0).size())) {
-      // visited.at(new_i).at(new_j) = true;
-      board_DFS(board, word, visited, new_i, new_j, k + 1, find);
-    }
-    if (find) {
-      break;
-    }
-  }
-  visited.at(i).at(j) = false;
-}
-bool Solution::exist1(vector<vector<char>>& board, string word) {
-  if (board.empty() || board[0].empty() || word.empty()) {
-    return false;
-  }
-  unordered_map<char, int> board_cnt;
-  unordered_map<char, int> word_cnt;
-  for (auto const& row : board) {
-    for (char c : row) board_cnt[c]++;
-  }
-  for (char c : word) {
-    if (++word_cnt[c] > board_cnt[c]) {
-      return false;
-    }
-  }
-  int rows{board.size()};
-  int cols{board[0].size()};
-  const vector<pair<int, int>> dirs{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-  stack<tuple<int, int, int, bool>> stk;
-  for (int i{0}; i < rows; ++i) {
-    for (int j{0}; j < cols; ++j) {
-      if (board[i][j] != word[0]) {
-        continue;
-      }
-      board[i][j] = '\0';
-      stk.emplace(i, j, 0, false);
-      while (!stk.empty()) {
-        auto& frame{stk.top()};
-        int curr_i = get<0>(frame);
-        int curr_j = get<1>(frame);
-        int curr_k = get<2>(frame);
-        bool is_processed = get<3>(frame);
-        if (!is_processed) {
-          if (curr_k == word.length() - 1) {
-            board[curr_i][curr_j] = word[curr_k];
-            return true;
-          }
-          get<3>(frame) = true;
 
-          for (auto it{dirs.rbegin()}; it != dirs.rend(); ++it) {
-            int new_i{curr_i + it->first};
-            int new_j{curr_j + it->second};
-            if (new_i >= 0 && new_i < rows && new_j >= 0 && new_j < cols &&
-                board[new_i][new_j] == word[curr_k + 1]) {
-              // 原地标记访问
-              board[new_i][new_j] = '\0';
-              stk.emplace(new_i, new_j, curr_k + 1, false);
-            }
-          }
-        } else {
-          board[curr_i][curr_j] = word[curr_k];
-          stk.pop();
-        }
-      }
-    }
-  }
-  return false;
-}
 /*
 请你将所有链表合并到一个升序链表中，返回合并后的链表。
 示例 1：
@@ -605,44 +455,13 @@ ListNode* Solution::mergeKLists(vector<ListNode*>& lists) {
  * @param {ListNode*} b
  * @return {*}
  */
-ListNode* Solution::mergeTwoLists(ListNode* a, ListNode* b) {
-  if (a == nullptr) {
-    return b;
-  } else if (b == nullptr) {
-    return a;
-  }
-  ListNode head;
-  ListNode* tail{&head};
-  ListNode* aPtr{a};
-  ListNode* bPtr{b};
-  while (aPtr != nullptr && bPtr != nullptr) {
-    if (aPtr->val < bPtr->val) {
-      tail->next = aPtr;
-      aPtr = aPtr->next;
-    } else {
-      tail->next = bPtr;
-      bPtr = bPtr->next;
-    }
-    tail = tail->next;
-  }
-  tail->next = (aPtr != nullptr) ? aPtr : bPtr;
-  return head.next;
-}
+
 
 ListNode* Solution::mergeKLists1(vector<ListNode*>& lists) {
   return merge(lists, 0, lists.size() - 1);
 }
 
-ListNode* Solution::merge(vector<ListNode*>& lists, int l, int r) {
-  if (l == r) {
-    return lists[l];
-  }
-  if (l > r) {
-    return nullptr;
-  }
-  int mid = (l + r) >> 1;
-  return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
-}
+
 
 ListNode* Solution::mergeKLists2(vector<ListNode*>& lists) {
   // ListNode* p1{nullptr};
@@ -836,8 +655,8 @@ ListNode* Solution::modifiedList(vector<int>& nums, ListNode* head) {
 
 ListNode* Solution::modifiedList1(vector<int>& nums, ListNode* head) {
   std::unordered_set<int> st(nums.begin(), nums.end());
-  ListNode* dummy(0, head);
-  ListNode* curr{dummy};
+  ListNode dummy(0, head);
+  ListNode* curr{&dummy};
   while (curr->next != nullptr) {
     if (st.count(curr->next->val) != 0) {
       ListNode* del_node = curr->next;
@@ -849,7 +668,7 @@ ListNode* Solution::modifiedList1(vector<int>& nums, ListNode* head) {
   }
   // ListNode* newHead = dummy->next;
   // delete dummy;
-  return dummy->next;
+  return dummy.next;
 }
 
 // 给定一个已排序的链表的头 head ， 删除所有重复的元素，
@@ -875,10 +694,10 @@ ListNode* Solution::deleteDuplicates_82(ListNode* head) {
     int DupVal = curr->next->val;
     while (curr->next != nullptr && curr->next->val == DupVal) {
       curr->next = curr->next->next;
-    } 
+    }
   } else {
-      curr = curr->next;
-  } 
+    curr = curr->next;
+  }
   return dummy.next;
 }
 
@@ -890,22 +709,23 @@ ListNode* Solution::deleteDuplicates_82(ListNode* head) {
 // 链表中的节点数应该减少 1。
 // node 前面的所有值顺序相同。
 // node 后面的所有值顺序相同。
-void Solution::deleteNode(ListNode* node){
+void Solution::deleteNode(ListNode* node) {
   node->val = node->next->val;
   node->next = node->next->next;
 }
 
 // 给你两个链表 list1 和 list2 ，它们包含的元素分别为 n 个和 m 个。
-// 请你将 list1 中下标从 a 到 b 的全部节点都删除，并将list2 接在被删除节点的位置。
+// 请你将 list1 中下标从 a 到 b 的全部节点都删除，并将list2
+// 接在被删除节点的位置。
 ListNode* Solution::mergeInBetween(ListNode* list1, int a, int b,
                                    ListNode* list2) {
   ListNode* ptr_a{nullptr};
   ListNode* ptr_b_1{nullptr};
   // ListNode dummy(0,list1);
-   ListNode* curr_ptr{list1};
+  ListNode* curr_ptr{list1};
   int curr_pos{0};
   while (curr_pos <= b + 1) {
-    if (curr_pos == a-1) {
+    if (curr_pos == a - 1) {
       ptr_a = curr_ptr;
     }
     if (curr_pos == b + 1) {
@@ -917,11 +737,44 @@ ListNode* Solution::mergeInBetween(ListNode* list1, int a, int b,
   }
   ptr_a->next = list2;
   ListNode* curr_ptr_b{list2};
-  while(curr_ptr_b->next!=nullptr){
+  while (curr_ptr_b->next != nullptr) {
     curr_ptr_b = curr_ptr_b->next;
   }
   curr_ptr_b->next = ptr_b_1;
   return list1;
 }
+
+ListNode* Solution::removeNodes(ListNode* head) {
+  std::stack<ListNode*> stk;
+  for (ListNode* curr{head}; curr != nullptr; curr = curr->next) {
+    stk.emplace(curr);
+  }
+  ListNode* PtrRtn{nullptr};
+  for (; !stk.empty(); stk.pop()) {
+    // nullptr 保留最后一个节点
+    if (PtrRtn == nullptr || stk.top()->val >= PtrRtn->val) {
+      stk.top()->next = PtrRtn;
+      PtrRtn = stk.top();
+    }
+  }
+  return PtrRtn;
+}
+
+ListNode* Solution::insertGreatestCommonDivisors(ListNode* head) {
+  ListNode* node{head};
+  while (node != nullptr) {
+    node->next = new ListNode(gcd(node->val, node->next->val), node->next);
+    node = node->next->next;
+  }
+  return node;
+}
+
+// ListNode* Solution::insertionSortList(ListNode* head) {
+
+// }
+
+
+
+
 
 }  // namespace MYCODE
